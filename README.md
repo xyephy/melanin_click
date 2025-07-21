@@ -1,7 +1,35 @@
 
 # Melanin Click: Your All-In-One Wallet, Node & Miner Installer
 
-Welcome to **Melanin Click (Developer Build)**, a tool designed to simplify the setup process for running Whive, Bitcoin, and Lightning nodes and miners across multiple platforms. This guide will help you install and run Melanin Click on macOS, Linux, or Windows.
+Welcome to **Melanin Click**, a tool designed to simplify the setup process for running Whive, Bitcoin, and Lightning nodes and miners across multiple platforms.
+
+## 🚀 New Tauri Version 2.0 Available!
+
+We've rebuilt Melanin Click with modern technology for better performance and user experience:
+
+- **Native Performance**: Built with Rust and Tauri for faster execution
+- **Modern UI**: React-based interface with professional design
+- **Better Security**: Sandboxed architecture with enhanced security
+- **Cross-Platform**: Single codebase for macOS, Linux, and Windows
+- **Easy Distribution**: Native installers (.dmg, .msi, .deb, .AppImage)
+
+### Quick Start (Tauri Version)
+```bash
+cd melanin_click_tauri
+npm install
+npm run tauri dev
+```
+
+### Installation Issues on macOS?
+If you downloaded a DMG and see "Melanin Click is damaged":
+- **Quick Fix**: See **[USER_INSTALL_GUIDE.md](USER_INSTALL_GUIDE.md)** (30-second solution)
+- **Developer Guide**: See **[CODE_SIGNING_GUIDE.md](CODE_SIGNING_GUIDE.md)** for building signed versions
+
+---
+
+## Legacy Python Version (v1.x)
+
+The instructions below are for the original Python version. For new installations, we recommend using the Tauri version above.
 
 ## Key Features
 
