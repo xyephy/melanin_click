@@ -1,0 +1,2 @@
+# Melanin Click Requirements
+tk>=0.1.0 
