@@ -68,7 +68,7 @@
       },
       "nsis": {
         "displayLanguageSelector": false,
-        "installerIcon": "icons/icon.ico",
+        "installerIcon": "icons/128x128.png",
         "installMode": "currentUser",
         "languages": ["English"]
       }
